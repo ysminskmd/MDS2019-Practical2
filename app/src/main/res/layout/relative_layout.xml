@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"/>
+
+    <Spinner
+        android:id="@+id/cities"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:entries="@array/cities"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/ages"/>
+
+    <Spinner
+        android:id="@+id/ages"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:entries="@array/ages"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ages"
+        android:layout_alignParentRight="true"
+        android:onClick="clickButton"
+        android:text="Click"/>
+
+</RelativeLayout>

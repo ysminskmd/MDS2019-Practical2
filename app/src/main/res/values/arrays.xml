@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+        <item>Minsk</item>
+        <item>Moscow</item>
+        <item>New York</item>
+        <item>Los Angeles</item>
+    </string-array>
+
+    <string-array name="ages">
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+    </string-array>
+
+</resources>
